@@ -78,7 +78,7 @@ const EmptyState: React.FC<{ onGoToInput: () => void }> = ({ onGoToInput }) => (
     </div>
     <h3 className="text-xl font-semibold text-slate-800 mb-2">名單目前為空</h3>
     <p className="text-slate-500 mb-8 max-w-xs text-center">
-      請先前往「名單管理」上傳 CSV 或輸入姓名。
+      請先前往「名單管理區域」上傳 CSV 或輸入姓名。
     </p>
     <button 
       onClick={onGoToInput}
