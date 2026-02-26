@@ -23,3 +23,4 @@ export interface RaffleWinner {
   prizeName: string;
   timestamp: Date;
 }
+ 
