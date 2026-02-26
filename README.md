@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# HR Helper Suite
 
-# Run and deploy your AI Studio app
+This is a React project built with Vite.
 
-This contains everything you need to run your app locally.
+## Setup
 
-View your app in AI Studio: https://ai.studio/apps/ee7d0d28-88df-4a39-a5a1-d62d248c6555
+1. Make sure you have Node.js installed.
+2. Clone the repository.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Set the `GEMINI_API_KEY` in `.env.local` to your Gemini API key.
 
-## Run Locally
+## Local Development
 
-**Prerequisites:**  Node.js
+Start the development server:
 
+```bash
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Deployment
+
+This project is configured with a GitHub Action (`.github/workflows/deploy.yml`) to automatically deploy to GitHub Pages whenever code is pushed to the `main` branch.
+
+To enable GitHub Pages:
+
+1. Go to your repository settings on GitHub.
+2. Navigate to "Pages" under Code and automation.
+3. Under "Build and deployment", set the source to "GitHub Actions".
