@@ -29,3 +29,6 @@ To enable GitHub Pages:
 1. Go to your repository settings on GitHub.
 2. Navigate to "Pages" under Code and automation.
 3. Under "Build and deployment", set the source to "GitHub Actions".
+4. Go to "Secrets and variables" -> "Actions".
+5. Click "New repository secret".
+6. Add `GEMINI_API_KEY` with your actual API key so the Github Action can build the app successfully.
